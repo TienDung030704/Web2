@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resources</title>
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="./assets/favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="./assets/favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+
+    <!-- Scripts -->
+    <script src="./assets/js/scripts.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header" class="header-background container"></header>
+    <script>
+      load("#header", "./template/header.html");
+    </script>
+
+    <!-- Learn -->
+    <section class="learn">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="learn-left">
+              <h3 class="learn-left__tittle">Let’s talk with us easily</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="contact">
+          <form action="" class="form contact__form">
+            <div class="contact__row">
+              <div class="form__groups">
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Your first name"
+                  class="form__inputs"
+                />
+              </div>
+              <div class="form__groups">
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Your last name"
+                  class="form__inputs"
+                />
+              </div>
+            </div>
+            <div class="contact__row contact__row--lv1">
+              <div class="form__groups">
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Your email address"
+                  class="form__inputs"
+                />
+              </div>
+              <div class="form__groups">
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Your phone number"
+                  class="form__inputs"
+                />
+              </div>
+            </div>
+            <label for="" class="form__labels">I want to learn</label>
+            <div class="contact__checked">
+              <div class="form__checked">
+                <input
+                  type="checkbox"
+                  name="gender"
+                  id=""
+                  checked
+                  class="contact__input"
+                />
+                <div class="form__round"></div>
+                <label for="" class="form__checked">Design</label>
+              </div>
+              <div class="form__checked">
+                <input
+                  type="checkbox"
+                  name="gender"
+                  id=""
+                  class="contact__input"
+                  checked
+                />
+                <div class="form__round"></div>
+                <label for="" class="form__checked">Development</label>
+              </div>
+              <div class="form__checked">
+                <input
+                  type="checkbox"
+                  name="gender"
+                  id=""
+                  class="contact__input"
+                  checked
+                />
+                <div class="form__round"></div>
+                <label for="" class="form__checked">Marketing</label>
+              </div>
+              <div class="form__checked">
+                <input
+                  type="checkbox"
+                  name="gender"
+                  id=""
+                  class="contact__input"
+                  checked
+                />
+                <div class="form__round"></div>
+                <label for="" class="form__checked">Other</label>
+              </div>
+            </div>
+            <textarea
+              name=""
+              id=""
+              placeholder="Write your messages"
+              class="form__textarea"
+            ></textarea>
+          </form>
+          <button class="contact__btn">Send Message</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- successful -->
+    <section class="successful">
+      <div class="container">
+        <div class="successful-top">
+          <h3 class="successful-top__heading">
+            More that 1M+ successful students
+          </h3>
+          <p class="successful-top__desc">
+            Circuit is flexible and affordable and offers you exceptional
+            support to achieve your career goals.
+          </p>
+        </div>
+        <div class="successful-button">
+          <button class="btn successful-button__btn">Get Started</button>
+        </div>
+        <div class="successful-avatar">
+          <img
+            src="./assets/img/succes-img1.svg"
+            alt=""
+            class="successful-avatar__img"
+          />
+          <img
+            src="./assets/img/succes-img2.svg"
+            alt=""
+            class="successful-avatar__img"
+          />
+          <img
+            src="./assets/img/succes-img3.svg"
+            alt=""
+            class="successful-avatar__img"
+          />
+          <img
+            src="./assets/img/succes-img4.svg"
+            alt=""
+            class="successful-avatar__img"
+          />
+          <img
+            src="./assets/img/succes-img5.svg"
+            alt=""
+            class="successful-avatar__img"
+          />
+          <img
+            src="./assets/img/succes-img6.svg"
+            alt=""
+            class="successful-avatar__img"
+          />
+        </div>
+        <div class="successful-star">
+          <img
+            src="./assets/img/success-star.svg"
+            alt=""
+            class="successful-star__img"
+          />
+          <img
+            src="./assets/img/success-star.svg"
+            alt=""
+            class="successful-star__img"
+          />
+          <img
+            src="./assets/img/success-star.svg"
+            alt=""
+            class="successful-star__img"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer id="footer" class="container"></footer>
+    <script>
+      load("#footer", "./template/footer.html");
+    </script>
+  </body>
+</html>

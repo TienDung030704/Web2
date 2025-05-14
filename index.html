@@ -28,8 +28,881 @@
       href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+
+    <!-- Scripts -->
+    <script src="./assets/js/scripts.js"></script>
   </head>
   <body>
-    <h1>Hello</h1>
+    <!-- Header -->
+    <header id="header" class="header-background container"></header>
+    <script>
+      load("#header", "./template/header.html");
+    </script>
+
+    <!-- Main -->
+    <section class="banner">
+      <p class="banner__desc">
+        Get Discount Of 10% On All our Video Courses For a Limited Time
+      </p>
+      <p class="banner__desc">
+        Get Discount Of 10% On All our Video Courses For a Limited Time
+      </p>
+      <p class="banner__desc">
+        Get Discount Of 10% On All our Video Courses For a Limited Time
+      </p>
+    </section>
+
+    <!-- Learn -->
+
+    <div class="learn">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="learn-left">
+              <h3 class="learn-left__tittle">
+                Learn at the comfort of your own home
+              </h3>
+              <p class="learn-left__desc">
+                Circuit is a Global training provider based across the UK that
+                specialises in accredited and bespoke training courses.
+              </p>
+              <div class="learn-row">
+                <form class="learn-form">
+                  <button class="learn-form__search">
+                    <img
+                      src="./assets/icon/search.svg"
+                      alt=""
+                      class="learn-search__image"
+                    />
+                  </button>
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="Find a course"
+                    class="learn-form__input"
+                  />
+                </form>
+                <div class="learn-btn">
+                  <button class="btn learn-btn--primary">Discover Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="learn-right">
+              <img
+                src="./assets/img/Ellipse-learn.png"
+                alt=""
+                class="learn-right__image"
+              />
+              <div class="learn-block">
+                <img
+                  src="./assets/img/learn-people.svg"
+                  alt=""
+                  class="learn-block__avt"
+                />
+                <div class="learn-round">
+                  <img
+                    src="./assets/icon/right-arrow.svg"
+                    alt=""
+                    class="learn-round__arrow"
+                  />
+                </div>
+                <div class="learn-bottom">
+                  <p class="learn-bottom__desc">Web Design</p>
+                  <div class="learn-rows">
+                    <p class="learn-rows__desc">Basic Web Design 2022</p>
+                    <span class="learn-rows__number">$ 149</span>
+                  </div>
+                  <div class="learn-rate">
+                    <span class="learn-rate__number">4.5</span>
+                    <img
+                      src="./assets/icon/star.svg"
+                      alt=""
+                      class="learn-rate__star"
+                    />
+                    <p class="learn-rate__desc">(5325)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Benefits -->
+    <div class="benefit">
+      <div class="container">
+        <div class="benefit-row">
+          <div class="benefit-column">
+            <h4 class="benefit-column__tittle">Benefits</h4>
+            <p class="benefit-column__desc">
+              Simple and effective accredited Tech training courses
+            </p>
+          </div>
+          <div class="benefit-block"></div>
+          <img
+            src="./assets/img/benefit-people.svg"
+            alt=""
+            class="benefit-young"
+          />
+          <div class="benefit-play">
+            <img
+              src="./assets/icon/play.svg"
+              alt=""
+              class="benefit-play__img"
+            />
+          </div>
+          <div class="benefit-columns">
+            <img
+              src="./assets/icon/watch.svg"
+              alt=""
+              class="benefit-columns__watch"
+            />
+            <p class="benefit-columns__desc">Short & Accredited Courses</p>
+          </div>
+          <div class="benefit-columns">
+            <img
+              src="./assets/icon/student.svg"
+              alt=""
+              class="benefit-columns__watch"
+            />
+            <p class="benefit-columns__desc">Student Friendly Classroom</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Support -->
+
+    <section class="support">
+      <div class="container">
+        <h3 class="support__heading">Support to achieve your career goals</h3>
+        <p class="support__desc">
+          Circuit is flexible and affordable and offers you exceptional support
+          to achieve your career goals. Circuit is a Global training provider
+          based across the UK that specialises.
+        </p>
+        <button class="btn support__btn">Learn More</button>
+        <div class="support-bottom">
+          <img
+            src="./assets/img/support-img1.svg"
+            alt=""
+            class="support-bottom__image"
+          />
+          <img
+            src="./assets/img/support-img2.svg"
+            alt=""
+            class="support-bottom__image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Flexible -->
+    <section class="flexible">
+      <div class="container">
+        <div class="flexible-top">
+          <h3 class="flexible-top__tittle">
+            Flexible and affordable system for you
+          </h3>
+        </div>
+        <div class="flexible-list">
+          <!-- Flexible Item 1 -->
+          <div class="flexible-item">
+            <img
+              src="./assets/icon/flexible-img1.svg"
+              alt=""
+              class="flexible-item__img"
+            />
+            <h4 class="flexible-item__heading">Short Course</h4>
+            <p class="flexible-item__desc">
+              Ranging from 1 -14 Days or up to 12 Months. Providing the best
+              courses all over the world
+            </p>
+          </div>
+
+          <!-- Flexible Item 2 -->
+          <div class="flexible-item">
+            <img
+              src="./assets/icon/flexible-img2.svg"
+              alt=""
+              class="flexible-item__img"
+            />
+            <h4 class="flexible-item__heading">Friendly Classroom</h4>
+            <p class="flexible-item__desc">
+              Nationwide Locations running monthly whether Face2face or Virtual
+              Live Classroom
+            </p>
+          </div>
+
+          <!-- Flexible Item 3 -->
+          <div class="flexible-item">
+            <img
+              src="./assets/icon/flexible-img3.svg"
+              alt=""
+              class="flexible-item__img"
+            />
+            <h4 class="flexible-item__heading">Online Course</h4>
+            <p class="flexible-item__desc">
+              Self-paced, Study from anywhere E-learning Video courses.
+              Providing the best courses all over the world
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Subject -->
+    <section class="subject">
+      <div class="container">
+        <div class="subject-top">
+          <h3 class="subject-top__heading">Course Subjects to suit you</h3>
+          <p class="subject-top__desc">
+            Circuit is flexible and affordable and offers you exceptional
+            support to achieve your career goals.
+          </p>
+        </div>
+        <div class="row row-cols-3 gx-0 g-lg-3">
+          <div class="col">
+            <div class="subject-list">
+              <!-- Subject Item 1 -->
+              <div class="subject-item">
+                <img
+                  src="./assets/img/subject-img1.svg"
+                  alt=""
+                  class="subject-item__avt"
+                />
+                <div class="subject-round">
+                  <svg
+                    class="subject-round__arrow"
+                    width="20"
+                    height="16"
+                    viewBox="0 0 20 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19 7.99902L1 7.99996"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M12 1L19 8L12 15"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <div class="subject-bottom">
+                  <p class="subject-bottom__desc">Web Design</p>
+                  <div class="subject-rows">
+                    <p class="subject-rows__desc">Basic Web Design 2022</p>
+                    <span class="subject-rows__number">$ 149</span>
+                  </div>
+                  <div class="subject-rate">
+                    <span class="subject-rate__number">4.5</span>
+                    <img
+                      src="./assets/icon/star.svg"
+                      alt=""
+                      class="subject-rate__star"
+                    />
+                    <p class="subject-rate__desc">(5325)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="subject-list">
+              <!-- Subject Item 1 -->
+              <div class="subject-item">
+                <img
+                  src="./assets/img/subject-img2.svg"
+                  alt=""
+                  class="subject-item__avt"
+                />
+                <div class="subject-round">
+                  <svg
+                    class="subject-round__arrow"
+                    width="20"
+                    height="16"
+                    viewBox="0 0 20 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19 7.99902L1 7.99996"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M12 1L19 8L12 15"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <div class="subject-bottom">
+                  <p class="subject-bottom__desc">Web Design</p>
+                  <div class="subject-rows">
+                    <p class="subject-rows__desc">Basic Web Design 2022</p>
+                    <span class="subject-rows__number">$ 149</span>
+                  </div>
+                  <div class="subject-rate">
+                    <span class="subject-rate__number">4.5</span>
+                    <img
+                      src="./assets/icon/star.svg"
+                      alt=""
+                      class="subject-rate__star"
+                    />
+                    <p class="subject-rate__desc">(5325)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="subject-list">
+              <!-- Subject Item 1 -->
+              <div class="subject-item">
+                <img
+                  src="./assets/img/subject-img3.svg"
+                  alt=""
+                  class="subject-item__avt"
+                />
+                <div class="subject-round">
+                  <svg
+                    class="subject-round__arrow"
+                    width="20"
+                    height="16"
+                    viewBox="0 0 20 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19 7.99902L1 7.99996"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M12 1L19 8L12 15"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <div class="subject-bottom">
+                  <p class="subject-bottom__desc">Web Design</p>
+                  <div class="subject-rows">
+                    <p class="subject-rows__desc">Basic Web Design 2022</p>
+                    <span class="subject-rows__number">$ 149</span>
+                  </div>
+                  <div class="subject-rate">
+                    <span class="subject-rate__number">4.5</span>
+                    <img
+                      src="./assets/icon/star.svg"
+                      alt=""
+                      class="subject-rate__star"
+                    />
+                    <p class="subject-rate__desc">(5325)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="subject-list">
+              <!-- Subject Item 1 -->
+              <div class="subject-item">
+                <img
+                  src="./assets/img/subject-img4.svg"
+                  alt=""
+                  class="subject-item__avt"
+                />
+                <div class="subject-round">
+                  <svg
+                    class="subject-round__arrow"
+                    width="20"
+                    height="16"
+                    viewBox="0 0 20 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19 7.99902L1 7.99996"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M12 1L19 8L12 15"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <div class="subject-bottom">
+                  <p class="subject-bottom__desc">Web Design</p>
+                  <div class="subject-rows">
+                    <p class="subject-rows__desc">Basic Web Design 2022</p>
+                    <span class="subject-rows__number">$ 149</span>
+                  </div>
+                  <div class="subject-rate">
+                    <span class="subject-rate__number">4.5</span>
+                    <img
+                      src="./assets/icon/star.svg"
+                      alt=""
+                      class="subject-rate__star"
+                    />
+                    <p class="subject-rate__desc">(5325)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="subject-list">
+              <!-- Subject Item 1 -->
+              <div class="subject-item">
+                <img
+                  src="./assets/img/subject-img5.svg"
+                  alt=""
+                  class="subject-item__avt"
+                />
+                <div class="subject-round">
+                  <svg
+                    class="subject-round__arrow"
+                    width="20"
+                    height="16"
+                    viewBox="0 0 20 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19 7.99902L1 7.99996"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M12 1L19 8L12 15"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <div class="subject-bottom">
+                  <p class="subject-bottom__desc">Web Design</p>
+                  <div class="subject-rows">
+                    <p class="subject-rows__desc">Basic Web Design 2022</p>
+                    <span class="subject-rows__number">$ 149</span>
+                  </div>
+                  <div class="subject-rate">
+                    <span class="subject-rate__number">4.5</span>
+                    <img
+                      src="./assets/icon/star.svg"
+                      alt=""
+                      class="subject-rate__star"
+                    />
+                    <p class="subject-rate__desc">(5325)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="subject-list">
+              <!-- Subject Item 1 -->
+              <div class="subject-item">
+                <img
+                  src="./assets/img/learn-people.svg"
+                  alt=""
+                  class="subject-item__avt"
+                />
+                <div class="subject-round">
+                  <svg
+                    class="subject-round__arrow"
+                    width="20"
+                    height="16"
+                    viewBox="0 0 20 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19 7.99902L1 7.99996"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M12 1L19 8L12 15"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <div class="subject-bottom">
+                  <p class="subject-bottom__desc">Web Design</p>
+                  <div class="subject-rows">
+                    <p class="subject-rows__desc">Basic Web Design 2022</p>
+                    <span class="subject-rows__number">$ 149</span>
+                  </div>
+                  <div class="subject-rate">
+                    <span class="subject-rate__number">4.5</span>
+                    <img
+                      src="./assets/icon/star.svg"
+                      alt=""
+                      class="subject-rate__star"
+                    />
+                    <p class="subject-rate__desc">(5325)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="subject-button">
+          <button class="btn subject-button__btn">All Course</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Platform -->
+    <div class="platform">
+      <div class="container">
+        <div class="platform-row">
+          <div class="platform-left">
+            <img
+              src="./assets/img/platform.svg"
+              alt=""
+              class="platform-left__image"
+            />
+            <div class="platform-play">
+              <img
+                src="./assets/icon/play.svg"
+                alt=""
+                class="platform-play__img"
+              />
+            </div>
+          </div>
+          <div class="platform-right">
+            <h3 class="platform-right__heading">
+              Benefits of learning with circuit platfrom
+            </h3>
+            <p class="platform-right__desc">
+              Circuit is flexible and affordable and offers you exceptional
+              support to achieve your career goals. Circuit is a Global training
+              provider based across the UK that specialises.
+            </p>
+            <div class="platform-rows">
+              <div class="platform-ticket">
+                <img
+                  src="./assets/icon/platform-ticket.svg"
+                  alt=""
+                  class="platform-ticket__image"
+                />
+                <p class="platform-ticket__desc">More affordable cost</p>
+              </div>
+              <div class="platform-ticket">
+                <img
+                  src="./assets/icon/platform-ticket.svg"
+                  alt=""
+                  class="platform-ticket__image"
+                />
+                <p class="platform-ticket__desc">
+                  The insight gainded in much wider
+                </p>
+              </div>
+              <div class="platform-ticket">
+                <img
+                  src="./assets/icon/platform-ticket.svg"
+                  alt=""
+                  class="platform-ticket__image"
+                />
+                <p class="platform-ticket__desc">More flexible study time</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Students -->
+    <section class="student">
+      <div class="container">
+        <div class="student-top">
+          <h3 class="student-top__tittle">What students are saying</h3>
+          <p class="student-top__desc">
+            Circuit is flexible and affordable and offers you exceptional
+            support to achieve your career goals. Circuit is a Global training
+            provider based across the UK that specialises.
+          </p>
+        </div>
+        <div class="student-list">
+          <div class="student-item">
+            <h3 class="student-item__heading">
+              Great platform for learning online I have ever found!
+            </h3>
+            <p class="student-item__desc">
+              "Circuit has helped me expand my knowledge through several
+              important courses that are extremely impactful and helpful for my
+              career. For the first time, finishing my degree seemed realistic.
+              It was online with a flexible schedule. It felt like this program
+              was made for my situation. Really a wonderful platform”
+            </p>
+            <div class="student-avatar">
+              <img
+                src="./assets/img/student-avt1.svg"
+                alt=""
+                class="student-avatar__avt"
+              />
+              <div class="student-column">
+                <h4 class="student-column__tittle">Tim Southee</h4>
+                <div class="student-star">
+                  <img
+                    src="./assets/icon/star.svg"
+                    alt=""
+                    class="student-star__img"
+                  />
+                  <img
+                    src="./assets/icon/star.svg"
+                    alt=""
+                    class="student-star__img"
+                  />
+                  <img
+                    src="./assets/icon/star.svg"
+                    alt=""
+                    class="student-star__img"
+                  />
+                  <img
+                    src="./assets/icon/star.svg"
+                    alt=""
+                    class="student-star__img"
+                  />
+                  <img
+                    src="./assets/icon/star.svg"
+                    alt=""
+                    class="student-star__img"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="student-item">
+            <h3 class="student-item__heading">
+              Great platform for learning online I have ever found!
+            </h3>
+            <p class="student-item__desc">
+              "Circuit has helped me expand my knowledge through several
+              important courses that are extremely impactful and helpful for my
+              career. For the first time, finishing my degree seemed realistic.
+              It was online with a flexible schedule.”
+            </p>
+            <div class="student-avatar">
+              <img
+                src="./assets/img/student-avt2.svg"
+                alt=""
+                class="student-avatar__avt"
+              />
+              <div class="student-column">
+                <h4 class="student-column__tittle">Trent Boult</h4>
+                <div class="student-star">
+                  <img
+                    src="./assets/icon/star.svg"
+                    alt=""
+                    class="student-star__img"
+                  />
+                  <img
+                    src="./assets/icon/star.svg"
+                    alt=""
+                    class="student-star__img"
+                  />
+                  <img
+                    src="./assets/icon/star.svg"
+                    alt=""
+                    class="student-star__img"
+                  />
+                  <img
+                    src="./assets/icon/star.svg"
+                    alt=""
+                    class="student-star__img"
+                  />
+                  <img
+                    src="./assets/icon/star.svg"
+                    alt=""
+                    class="student-star__img"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="student-item">
+            <h3 class="student-item__heading">
+              Great platform for learning online I have ever found!
+            </h3>
+            <p class="student-item__desc">
+              "Circuit has helped me expand my knowledge through several
+              important courses that are extremely impactful and helpful for my
+              career. For the first time, finishing my degree seemed realistic.
+              It was online with a flexible schedule. It felt like this program
+              was made for me”
+            </p>
+            <div class="student-avatar">
+              <img
+                src="./assets/img/student-avt3.svg"
+                alt=""
+                class="student-avatar__avt"
+              />
+              <div class="student-column">
+                <h4 class="student-column__tittle">Neil Wagner</h4>
+                <div class="student-star">
+                  <img
+                    src="./assets/icon/star.svg"
+                    alt=""
+                    class="student-star__img"
+                  />
+                  <img
+                    src="./assets/icon/star.svg"
+                    alt=""
+                    class="student-star__img"
+                  />
+                  <img
+                    src="./assets/icon/star.svg"
+                    alt=""
+                    class="student-star__img"
+                  />
+                  <img
+                    src="./assets/icon/star.svg"
+                    alt=""
+                    class="student-star__img"
+                  />
+                  <img
+                    src="./assets/icon/star.svg"
+                    alt=""
+                    class="student-star__img"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="student-dot">
+          <div class="student-dots"></div>
+          <div class="student-dots"></div>
+          <div class="student-dots"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- successful -->
+    <section class="successful">
+      <div class="container">
+        <div class="successful-top">
+          <h3 class="successful-top__heading">
+            More that 1M+ successful students
+          </h3>
+          <p class="successful-top__desc">
+            Circuit is flexible and affordable and offers you exceptional
+            support to achieve your career goals.
+          </p>
+        </div>
+        <div class="successful-button">
+          <button class="btn successful-button__btn">Get Started</button>
+        </div>
+        <div class="successful-avatar">
+          <img
+            src="./assets/img/succes-img1.svg"
+            alt=""
+            class="successful-avatar__img"
+          />
+          <img
+            src="./assets/img/succes-img2.svg"
+            alt=""
+            class="successful-avatar__img"
+          />
+          <img
+            src="./assets/img/succes-img3.svg"
+            alt=""
+            class="successful-avatar__img"
+          />
+          <img
+            src="./assets/img/succes-img4.svg"
+            alt=""
+            class="successful-avatar__img"
+          />
+          <img
+            src="./assets/img/succes-img5.svg"
+            alt=""
+            class="successful-avatar__img"
+          />
+          <img
+            src="./assets/img/succes-img6.svg"
+            alt=""
+            class="successful-avatar__img"
+          />
+        </div>
+        <div class="successful-star">
+          <img
+            src="./assets/img/success-star.svg"
+            alt=""
+            class="successful-star__img"
+          />
+          <img
+            src="./assets/img/success-star.svg"
+            alt=""
+            class="successful-star__img"
+          />
+          <img
+            src="./assets/img/success-star.svg"
+            alt=""
+            class="successful-star__img"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer id="footer" class="container"></footer>
+    <script>
+      load("#footer", "./template/footer.html");
+    </script>
   </body>
 </html>

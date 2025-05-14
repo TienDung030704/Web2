@@ -1,0 +1,753 @@
+.learn {
+  background: #e0eae5;
+  padding-top: 102px;
+  padding-bottom: 158px;
+  &-left {
+    &__tittle {
+      width: 570px;
+      color: #032e32;
+      font-family: "Plus Jakarta Sans";
+      font-size: 70px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 80px; /* 114.286% */
+    }
+    &__desc {
+      width: 570px;
+      color: #032e32;
+      font-family: "Plus Jakarta Sans";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px; /* 166.667% */
+      margin-top: 20px;
+    }
+  }
+  &-row {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+  &-form {
+    width: 361px;
+    height: 62px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    &__input {
+      background: none;
+      outline: none;
+      border: none;
+      color: #69797a;
+      font-family: "Plus Jakarta Sans";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px; /* 166.667% */
+    }
+    &__search {
+      margin-left: 16px;
+    }
+  }
+  &-btn {
+    &--primary {
+      color: #032e32;
+      text-align: center;
+      font-family: "Plus Jakarta Sans";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 30px; /* 166.667% */
+      border-radius: 8px;
+      border-radius: 8px;
+      background: #b5ed3d;
+      width: 191px;
+      height: 62px;
+      flex-shrink: 0;
+    }
+  }
+  &-right {
+    position: relative;
+    &__image {
+      margin-left: 30px;
+      margin-top: 86px;
+    }
+  }
+  &-block {
+    position: absolute;
+    top: 0;
+    left: 147px;
+    width: 370px;
+    height: 426px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #fff;
+    &__avt {
+      margin: 24px 24px 0px 24px;
+      position: relative;
+    }
+  }
+  &-round {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 54px;
+    height: 54px;
+    flex-shrink: 0;
+    border-radius: 54px;
+    background: #032e32;
+    position: absolute;
+    top: 258px;
+    left: 158px;
+  }
+  &-bottom {
+    margin-top: 33px;
+    margin-left: 24px;
+    &__desc {
+      color: #69797a;
+      font-family: "Plus Jakarta Sans";
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px; /* 171.429% */
+    }
+  }
+  &-rows {
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+    &__desc {
+      color: #032e32;
+      font-family: "Plus Jakarta Sans";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 28px; /* 175% */
+      margin-right: 96px;
+    }
+    &__number {
+      color: #032e32;
+      text-align: right;
+      font-family: "Plus Jakarta Sans";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 30px; /* 166.667% */
+    }
+  }
+  &-rate {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    &__number {
+      color: #69797a;
+      font-family: "Plus Jakarta Sans";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px; /* 175% */
+    }
+    &__desc {
+      color: #69797a;
+      font-family: "Plus Jakarta Sans";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px; /* 175% */
+    }
+  }
+}
+.benefit {
+  background: #032e32;
+  width: 100%;
+  height: 214px;
+  position: relative;
+  &-row {
+    display: flex;
+  }
+  &-block {
+    margin-left: 79px;
+    width: 242px;
+    height: 214px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #ff5f1a;
+    position: relative;
+    top: -40px;
+  }
+  &-young {
+    position: absolute;
+    left: 40%;
+    top: -86px;
+  }
+  &-play {
+    position: absolute;
+    left: 556px;
+    top: 10px;
+    width: 56px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 56px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &-column {
+    margin-top: 48px;
+    &__tittle {
+      color: #fff;
+      font-family: "Plus Jakarta Sans";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px; /* 166.667% */
+    }
+    &__desc {
+      width: 437px;
+      margin-top: 12px;
+      color: #fff;
+      font-family: "Plus Jakarta Sans";
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 38px; /* 135.714% */
+    }
+  }
+  &-columns {
+    margin-top: 62px;
+    margin-left: 52px;
+    &__desc {
+      width: 167px;
+      color: #fff;
+      font-family: "Plus Jakarta Sans";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 24px; /* 133.333% */
+      margin-top: 14px;
+    }
+  }
+}
+.support {
+  margin-top: 160px;
+  background: #fff;
+  &__heading {
+    width: 570px;
+    color: #032e32;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 52px; /* 123.81% */
+    margin: 0 auto;
+  }
+  &__desc {
+    width: 570px;
+    color: #4f5a5a;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin: 20px auto;
+  }
+  &__btn {
+    width: 167px;
+    height: 62px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #b5ed3d;
+    color: #032e32;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 166.667% */
+    margin: 55px auto;
+    display: block;
+  }
+  &-bottom {
+    display: block;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+}
+.flexible {
+  margin-top: 160px;
+  background: #fff;
+  &-top {
+    &__tittle {
+      width: 570px;
+      color: #032e32;
+      font-family: "Plus Jakarta Sans";
+      font-size: 42px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 52px; /* 123.81% */
+    }
+  }
+  &-list {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  &-item {
+    width: 370px;
+    height: 338px;
+    border-radius: 12px;
+    background: #fff;
+    border: 1px solid #d8e0e0;
+    &:hover {
+      background: #fff;
+      border: 1px solid #d8e0e0;
+      box-shadow: 0px 18px 46px 0px rgba(3, 46, 50, 0.08);
+      transform: translateY(-30px);
+      translate: 0.3 ease;
+      cursor: pointer;
+    }
+    &__img {
+      margin-top: 44px;
+      margin-left: 22px;
+    }
+    &__heading {
+      color: #032e32;
+      font-family: "Plus Jakarta Sans";
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 32px; /* 145.455% */
+      margin-left: 22px;
+      margin-top: 28px;
+    }
+    &__desc {
+      color: #4f5a5a;
+      font-family: "Plus Jakarta Sans";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px; /* 166.667% */
+      width: 326px;
+      margin-left: 22px;
+      margin-top: 16px;
+    }
+  }
+}
+.subject {
+  margin-top: 160px;
+  background: #e0eae5;
+  width: 100%;
+  height: 100%;
+  &-top {
+    &__heading {
+      padding-top: 100px;
+      color: #032e32;
+      text-align: center;
+      font-family: "Plus Jakarta Sans";
+      font-size: 42px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 52px; /* 123.81% */
+    }
+    &__desc {
+      margin: 18px auto;
+      width: 570px;
+      color: #032e32;
+      text-align: center;
+      font-family: "Plus Jakarta Sans";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px; /* 166.667% */
+    }
+  }
+  &-item {
+    width: 370px;
+    height: 426px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #fff;
+    position: relative;
+    &__avt {
+      margin: 24px 24px 0px 24px;
+    }
+  }
+  &-round {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 54px;
+    height: 54px;
+    flex-shrink: 0;
+    border-radius: 54px;
+    background: #032e32;
+    position: absolute;
+    top: 259px;
+    left: 158px;
+    color: #fff;
+    &:hover {
+      background: #b5ed3d;
+      color: #032e32;
+    }
+    &__arrow {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  &-bottom {
+    margin-top: 33px;
+    margin-left: 24px;
+    &__desc {
+      color: #69797a;
+      font-family: "Plus Jakarta Sans";
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px; /* 171.429% */
+    }
+  }
+  &-rows {
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+    &__desc {
+      color: #032e32;
+      font-family: "Plus Jakarta Sans";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 28px; /* 175% */
+      margin-right: 96px;
+    }
+    &__number {
+      color: #032e32;
+      text-align: right;
+      font-family: "Plus Jakarta Sans";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 30px; /* 166.667% */
+    }
+  }
+  &-list {
+    margin-top: 70px;
+  }
+  &-rate {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    &__number {
+      color: #69797a;
+      font-family: "Plus Jakarta Sans";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px; /* 175% */
+    }
+    &__desc {
+      color: #69797a;
+      font-family: "Plus Jakarta Sans";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px; /* 175% */
+    }
+  }
+  &-button {
+    margin: 55px auto;
+    padding-bottom: 100px;
+    &__btn {
+      width: 158px;
+      height: 62px;
+      flex-shrink: 0;
+      border-radius: 8px;
+      background: #b5ed3d;
+      color: #032e32;
+      text-align: center;
+      font-family: "Plus Jakarta Sans";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 30px; /* 166.667% */
+      margin: 0px auto;
+      display: block;
+    }
+  }
+}
+.platform {
+  margin-top: 160px;
+  &-row {
+    display: flex;
+    gap: 130px;
+  }
+  &-left {
+    position: relative;
+  }
+  &-play {
+    cursor: pointer;
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 72px;
+    background: #b5ed3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 42%;
+    left: 42%;
+
+    &__img {
+    }
+  }
+  &-right {
+    &__heading {
+      width: 570px;
+      color: #032e32;
+      font-family: "Plus Jakarta Sans";
+      font-size: 42px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 52px; /* 123.81% */
+      margin-top: 34px;
+    }
+    &__desc {
+      width: 570px;
+      color: #4f5a5a;
+      font-family: "Plus Jakarta Sans";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px; /* 166.667% */
+      margin-top: 18px;
+    }
+  }
+  &-form {
+    margin-top: 28px;
+  }
+  &-rows {
+    margin-top: 35px;
+  }
+  &-ticket {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    &__desc {
+      margin-bottom: 16px;
+      color: #032e32;
+      font-family: "Plus Jakarta Sans";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 30px; /* 166.667% */
+    }
+    &__image {
+      margin-top: -15px;
+    }
+  }
+}
+.student {
+  margin-top: 160px;
+  &-top {
+    &__tittle {
+      color: #032e32;
+      font-family: "Plus Jakarta Sans";
+      font-size: 42px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 52px; /* 123.81% */
+    }
+    &__desc {
+      color: #4f5a5a;
+      font-family: "Plus Jakarta Sans";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px; /* 166.667% */
+      width: 570px;
+      margin-top: 18px;
+    }
+  }
+  &-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    height: 100%;
+    margin-top: 70px;
+  }
+  &-item {
+    cursor: pointer;
+    width: 370px;
+    height: 502px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid #d8e0e0;
+
+    &:hover {
+      background: #fff;
+      box-shadow: 0px 18px 46px 0px rgba(3, 46, 50, 0.08);
+      transform: translateY(-30px);
+      translate: 0.3 ease;
+    }
+    &__heading {
+      color: #032e32;
+      font-family: "Plus Jakarta Sans";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 30px; /* 166.667% */
+      width: 270px;
+      margin-left: 24px;
+      margin-top: 44px;
+    }
+    &__desc {
+      color: #4f5a5a;
+      font-family: "Plus Jakarta Sans";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px; /* 175% */
+      width: 322px;
+      margin-top: 28px;
+      margin-left: 24px;
+    }
+  }
+  &-avatar {
+    display: flex;
+    align-items: center;
+    margin-top: 38px;
+    gap: 14px;
+    &__avt {
+      margin-left: 24px;
+    }
+  }
+  &-column {
+    &__tittle {
+      color: #032e32;
+      font-family: "Plus Jakarta Sans";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 30px; /* 166.667% */
+    }
+  }
+  &-star {
+    display: flex;
+    gap: 9px;
+    &__img {
+    }
+  }
+}
+.successful {
+  position: relative;
+  margin-top: 160px;
+  background: #04704e;
+  height: 100%;
+  width: 100%;
+  &-top {
+    &__heading {
+      width: 570px;
+      color: #fff;
+      text-align: center;
+      font-family: "Plus Jakarta Sans";
+      font-size: 42px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 52px; /* 123.81% */
+      padding-top: 350px;
+      margin: 0 auto;
+    }
+    &__desc {
+      color: #fff;
+      text-align: center;
+      font-family: "Plus Jakarta Sans";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px; /* 166.667% */
+      width: 570px;
+      margin: 18px auto;
+    }
+  }
+  &-button {
+    margin-top: 53px;
+    padding-bottom: 100px;
+    &__btn {
+      width: 173px;
+      height: 62px;
+      flex-shrink: 0;
+      border-radius: 8px;
+      background: #b5ed3d;
+      margin: 0 auto;
+      display: block;
+      color: #032e32;
+      text-align: center;
+      font-family: "Plus Jakarta Sans";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 30px; /* 166.667% */
+    }
+  }
+  &-avatar {
+    &__img {
+      position: absolute;
+      top: 190px;
+      left: 513px;
+      &:nth-of-type(2) {
+        position: absolute;
+        top: 170px;
+        left: 422px;
+      }
+      &:nth-of-type(3) {
+        position: absolute;
+        top: 168px;
+        left: 754px;
+      }
+      &:nth-of-type(4) {
+        position: absolute;
+        top: 104px;
+        left: 880px;
+      }
+      &:nth-of-type(5) {
+        position: absolute;
+        top: 221px;
+        left: 956px;
+      }
+      &:nth-of-type(6) {
+        position: absolute;
+        top: 100px;
+        left: 644px;
+      }
+    }
+  }
+  &-star {
+    &__img {
+      position: absolute;
+      top: 305px;
+      left: 135px;
+      &:nth-of-type(2) {
+        position: absolute;
+        top: 305px;
+        left: 1230px;
+      }
+      &:nth-of-type(3) {
+        position: absolute;
+        top: 96px;
+        left: 1120px;
+      }
+    }
+  }
+}

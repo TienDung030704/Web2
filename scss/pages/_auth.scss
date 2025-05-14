@@ -1,0 +1,65 @@
+.auth {
+  min-height: 100vh;
+  display: flex;
+  &__content,
+  &__intro {
+    flex: 1;
+  }
+  &__intro {
+    background: #04704e;
+  }
+  &__row {
+    margin-top: 300px;
+    margin-left: 135px;
+    &-separate {
+      width: 170px;
+      height: 4px;
+      flex-shrink: 0;
+      border-radius: 12px;
+      background: #b5ed3d;
+    }
+    &-heading {
+      margin-top: 20px;
+      width: 470px;
+      color: #fff;
+      font-family: "Plus Jakarta Sans";
+      font-size: 42px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 52px; /* 123.81% */
+    }
+    &-desc {
+      width: 411px;
+      color: #fff;
+      font-family: "Plus Jakarta Sans";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 30px; /* 166.667% */
+      margin-top: 20px;
+    }
+  }
+  &__content {
+    background: #e0eae5;
+    &-inner {
+      margin-top: 126px;
+      margin-left: 115px;
+    }
+  }
+  &__btn-group {
+  }
+  &__bth-primary {
+    cursor: pointer;
+    color: #032e32;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 175% */
+    width: 414px;
+    height: 62px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #b5ed3d;
+  }
+}
