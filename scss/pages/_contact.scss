@@ -101,10 +101,10 @@
     margin-top: 30px;
     display: block;
   }
-  .contact__input[type="checkbox"] {
+  .contact__input[type="radio"] {
     display: none;
   }
-  .contact__input[type="checkbox"]:checked + .form__round::after {
+  .contact__input[type="radio"]:checked + .form__round::after {
     background: #ff5f1a;
     border-radius: 50%;
     border: 1px solid #ff5f1a;

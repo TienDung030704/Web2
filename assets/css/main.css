@@ -2860,13 +2860,110 @@ strong {
   margin-top: 30px;
   display: block;
 }
-.form .contact__input[type=checkbox] {
+.form .contact__input[type=radio] {
   display: none;
 }
-.form .contact__input[type=checkbox]:checked + .form__round::after {
+.form .contact__input[type=radio]:checked + .form__round::after {
   background: #ff5f1a;
   border-radius: 50%;
   border: 1px solid #ff5f1a;
+}
+
+.learn-left__tittles {
+  width: 570px;
+  color: #032e32;
+  font-family: "Plus Jakarta Sans";
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 52px; /* 123.81% */
+}
+.learn-left__desc--lv1 {
+  color: #032e32;
+  font-family: "Plus Jakarta Sans";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 145.455% */
+  margin-top: 20px;
+}
+.learn-left__desc--lv2 {
+  margin-top: 28px;
+  color: #032e32;
+  font-family: "Plus Jakarta Sans";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 145.455% */
+}
+.learn-starss {
+  margin-top: 20px;
+  display: flex;
+  gap: 12px;
+}
+.learn-starss__desc {
+  color: #032e32;
+  font-family: "Plus Jakarta Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.learn-right__ticket {
+  margin-left: 533px;
+  margin-top: 24px;
+}
+.learn-right__courseimage {
+  margin-top: 147px;
+}
+.learn-right__courseimages {
+  margin-top: -375px;
+  margin-left: 10%;
+}
+.learn-listcourse {
+  margin-top: 28px;
+}
+.learn-itemcourse {
+  display: flex;
+  padding-top: 16px;
+  gap: 12px;
+}
+.learn-itemcourse__desc {
+  color: #032e32;
+  font-family: "Plus Jakarta Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.learn-btncourses {
+  margin-top: 40px;
+}
+.learn-btncourses__btn {
+  padding: 15px 35px;
+  color: #fff;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+  margin-left: 20px;
+}
+.learn-btncourses__button {
+  color: #032e32;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+  padding: 15px 35px;
+  border-radius: 8px;
+  background: #b5ed3d;
+}
+.learn-coursedetail {
+  margin-top: 110px;
 }
 
 /*
